@@ -8,7 +8,7 @@ from io import BytesIO
 from fastai import *
 from fastai.vision import *
 
-model_file_url = 'https://www.dropbox.com/s/rvkbh8qbga691eq/stage-2-50.pth?dl=1'
+model_file_url = 'https://www.dropbox.com/s/zk3ivua6zohsteq/stage-1-50.pth?dl=1'
 model_file_name = 'model'
 
 classes = ['-', '0', '1', '2', '3', '4', '5', '6', '7', '8', '9', 'Date', 'Otherchar', '_', 'attachment', 'dated', 'number', 'title']
