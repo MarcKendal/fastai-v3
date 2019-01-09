@@ -8,10 +8,10 @@ from io import BytesIO
 from fastai import *
 from fastai.vision import *
 
-model_file_url = 'https://www.dropbox.com/s/y4kl2gv1akv7y4i/stage-2.pth?raw=1'
+model_file_url = 'https://www.dropbox.com/s/xlcu5k2xpaar473/stage-1.pth?dl=1'
 model_file_name = 'model'
 
-classes = ['black', 'grizzly', 'teddys']
+classes = ['-', '0', '1', '2', '3', '4', '5', '6', '7', '8', '9', 'Date', 'Otherchar', '_', 'attachment', 'dated', 'number', 'title']
 path = Path(__file__).parent
 
 app = Starlette()
